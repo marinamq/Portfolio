@@ -1,0 +1,10 @@
+.header-container {
+    display: grid;
+    background-color: blueviolet;
+}
+
+.navegation-container {
+    display: grid;
+    background-color: burlywood;
+}
+
