@@ -40,7 +40,7 @@ p {
     text-align: justify;
 }
 
-.aboutme, .educational {
+.aboutme, .educational, .contact, .portfolio {
     margin-left: 40px;
     margin-right: 30px;
     line-height: 25px;
@@ -58,7 +58,56 @@ p {
 
 h1 {
     margin-top: 50px;
+    margin-bottom: 15px;
     color: rgba(0, 0, 0, 0.798);
+}
+
+/*portfolio*/
+.image-portfolio {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*contato formulario*/
+
+.label-form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.input-form {
+    width: 326px;
+    padding: 0.3em;
+    border-radius: 7px;
+    border-style: groove;
+    border-width: 0.1em;
+    margin-top: 10px;
+}
+
+textarea {
+    padding: 0.3em;
+    border-radius: 7px;
+    border-style: groove;
+    border-width: 0.1em;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color:rgba(0, 0, 0, 0.790);
+    height: 40px;
+    min-width: 10%;
+    padding: 0.5em;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.759);
+    color: #fff;
+    border-style: none;
+    margin-left: 150px;
 }
 
 /*logo*/
