@@ -78,64 +78,65 @@ h1 {
 }
 
 /*contato formulario*/
-
-.label-form {
-    display: inline-block;
-    text-align: left;
-    margin-top: 10px;
-}
-
-.input-form {
-    width: 100%;
-    padding: 0.3em;
-    border-radius: 7px;
-    border-style: groove;
-    border-width: 0.1em;
-    margin-top: 10px;
-}
-
-textarea {
-    padding: 0.3em;
-    border-radius: 7px;
-    border-style: groove;
-    border-width: 0.1em;
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-input[type="submit"] {
-    background-color: rgba(0, 0, 0, 0.790);
-    height: 40px;
-    min-width: 10%;
-    padding: 0.5em;
-    border-radius: 7px;
-    border-color: rgba(0, 0, 0, 0.759);
-    color: #fff;
-    border-style: none;
-    margin-left: 150px;
-}
-
-@media screen and (max-width: 600px) {
-    .col-25,
-    .col-75,
-    input[type=submit] {
-        width: 100%;
-        margin-top: 0;
+    .label-form {
+        display: inline-block;
+        text-align: left;
+        margin-top: 10px;
     }
-}
 
-/*logo*/
-.logo-github {
-    margin-top: 100px;
-    padding-top: 20px;
-    margin-left: 40px;
-    width: 50px;
-}
+    .input-form {
+        margin-top: 10px;
+    }
 
-.logo-linkedin {
-    margin-top: 100px;
-    padding-top: 20px;
-    margin-left: 20px;
-    width: 50px;
-}
+    .input-form,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 7px;
+        border-style: groove;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    textarea {
+        padding: 0.3em;
+        height: 100px;
+        min-width: 57%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* @media screen and (max-width = 700px) {
+        textarea {
+            max-width: 400px;
+        }
+    } */
+
+    input[type="submit"] {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.790);
+        height: 40px;
+        min-width: 0%;
+        padding: 0.5em;
+        border-radius: 7px;
+        border-color: rgba(0, 0, 0, 0.759);
+        color: #fff;
+        border-style: none;
+        margin-left: 70px;
+    }
+
+    /*logo*/
+    .logo-github {
+        margin-top: 100px;
+        padding-top: 20px;
+        margin-left: 40px;
+        width: 50px;
+    }
+
+    .logo-linkedin {
+        margin-top: 100px;
+        padding-top: 20px;
+        margin-left: 20px;
+        width: 50px;
+    }
